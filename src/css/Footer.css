@@ -1,0 +1,85 @@
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 20rem;
+  padding: 1rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.group-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.group-1 p:hover {
+  color: rgb(162, 152, 152);
+}
+
+.group-1 .icons {
+  cursor: pointer;
+}
+
+.footer-yemekteyiz-logo {
+  height: 6rem;
+  cursor: pointer;
+}
+.img-icon {
+  height: 1.5rem;
+  width: 1.7rem;
+  margin-top: 0.8rem;
+}
+
+.group-2 h2:hover {
+  color: rgb(162, 152, 152);
+  cursor: pointer;
+}
+.group-2 p:hover {
+  color: rgb(162, 152, 152);
+  cursor: pointer;
+}
+.group-3 {
+  width: 20rem;
+  gap: 5rem;
+  flex-shrink: 2;
+}
+.group-3 h2 {
+  cursor: pointer;
+}
+.group-3 img {
+  cursor: pointer;
+}
+.group-3 h2:hover {
+  color: rgb(162, 152, 152);
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    height: 20%;
+  }
+
+  .group-3 {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .icons {
+    gap: 0.25rem;
+  }
+}

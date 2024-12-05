@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+
+.colored-div {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+.food-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.box {
+  max-width: 40%;
+  font-family: "Barlow";
+}
+.form-banner {
+  display: flex;
+
+  max-width: 90%;
+  margin-top: -3rem;
+}
+
+.pizza-bilgi {
+  text-align: flex-start;
+  align-items: center;
+}
+.pizza-bilgi-ps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.decrase-btn,
+.incrase-btn {
+  background-color: rgba(253, 201, 19, 1);
+  border: none;
+  margin-top: 1.25rem;
+  padding: 17px 22px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.decrase-btn {
+  border-radius: 6px 0 0 6px;
+}
+.incrase-btn {
+  border-radius: 0 6px 6px 0;
+}
+.buttons {
+  position: relative;
+}
+
+.count {
+  background-color: rgba(250, 247, 242, 1);
+  margin-top: 1.25rem;
+  padding: 17px 22px;
+  border-radius: 7px;
+  border: none;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.baslik {
+  display: flex;
+  justify-content: space-around;
+}
+.boyut-hamur {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.değerlendirme-icon {
+  color: yellowgreen;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  justify-content: space-between;
+  padding: 4px 0 15px;
+}
+
+.checkbox-item {
+  flex: 0 1 calc(40% - 10vh);
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.checkbox-item:hover {
+  cursor: pointer;
+}
+
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.5em;
+  width: 1.5em;
+  background: #d5d5eb;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 1px 1px rgba(0, 5);
+}
+.checkbox-container input:checked ~ .checkmark {
+  background-image: linear-gradient(
+    rgba(253, 201, 19, 1),
+    rgba(253, 201, 19, 1)
+  );
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox-container .checkmark:after {
+  left: 0.5em;
+  top: 0.35em;
+  width: 0.3em;
+  height: 0.5em;
+  border: solid rgba(0, 0, 0, 1);
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+}
+
+.pizza-description {
+  color: rgba(95, 95, 95, 1);
+  padding: 7px 0;
+}
+
+.pizza-name {
+  color: rgba(41, 41, 41, 1);
+  font-size: 1.375rem;
+}
+
+.pizza-price {
+  color: rgba(41, 41, 41, 1);
+  font-size: 1.25rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6.25rem 0 0.625rem 0;
+  margin-top: 0%;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-label {
+  margin: 0.625rem;
+  padding: 0.625rem;
+  width: 3.125rem;
+  height: 3.125rem;
+
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.radio-label.selected {
+  background-color: rgb(247, 247, 26);
+}
+
+.dropbox {
+  background-color: rgba(250, 247, 242, 1);
+  padding: 1.25rem 1.875rem 1.25rem 0.125rem;
+  border: none;
+  border-radius: 0.625rem;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: rgba(250, 247, 242, 1);
+  padding: 0.625rem;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Barlow";
+  /* letter-spacing: 1px; */
+}
+
+.siparis-toplami {
+  width: 20rem;
+  height: 1rem;
+  margin-top: 1.2rem;
+}
+.siparis-button {
+  width: 100%;
+  background-color: rgba(253, 201, 19, 1);
+  border: none;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.siparisler {
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 6px;
+  text-align: left;
+  padding: 0 1rem;
+}
