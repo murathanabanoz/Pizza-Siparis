@@ -1,3 +1,5 @@
+Pizza Siparişi Uygulaması
+
 Bu uygulama, kullanıcıların online ortamda pizza siparişi vermelerini sağlayan modern ve kullanıcı dostu bir platformdur. React.js ile geliştirilmiş olan bu uygulama, kullanıcıların çeşitli pizza boyutları, malzemeler ve özelleştirmeler ile siparişlerini kolayca oluşturmasına olanak tanır. Kullanıcılar, istedikleri pizzayı seçebilir, pizza boyutunu belirleyebilir, çeşitli malzemeleri ekleyip çıkarabilir, siparişlerini özelleştirebilir ve sonrasında sipariş özetini görüntüleyerek onay verebilirler.
 
 Uygulama Özellikleri
@@ -27,8 +29,7 @@ Kullanıcılar, siparişlerini tamamladıktan sonra, siparişlerinin bir özeti 
 5. Hızlı Performans
 Uygulama, hızlı yükleme süreleri ve akıcı bir kullanıcı deneyimi sunmak için optimize edilmiştir. Vite gibi hızlı bir geliştirme aracı kullanılarak, kullanıcıların bekleme süresi minimize edilmiştir.
 
-Teknolojiler
-Bu proje, aşağıdaki teknolojilerle geliştirilmiştir:
+Teknolojiler:
 
 React.js: Kullanıcı arayüzü ve bileşen yönetimi için.
 
@@ -62,9 +63,13 @@ Katkı
 Eğer bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
 
 1.Projeyi kendi bilgisayarınıza klonlayın.
+
 2.Yeni bir branch oluşturun (git checkout -b yeni-feature).
+
 3.Yapmak istediğiniz değişiklikleri gerçekleştirin.
+
 4.Değişikliklerinizi commit edin (git commit -am 'Yeni özellik ekledim').
+
 5.GitHub'a push edin (git push origin yeni-feature).
 
 6.Pull request oluşturun.
