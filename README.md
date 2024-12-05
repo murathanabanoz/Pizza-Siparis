@@ -31,26 +31,31 @@ Teknolojiler
 Bu proje, aşağıdaki teknolojilerle geliştirilmiştir:
 
 React.js: Kullanıcı arayüzü ve bileşen yönetimi için.
+
 Vite: Hızlı geliştirme sunucusu ve paketleme aracı.
+
 CSS: Uygulamanın stil ve düzenini oluşturmak için.
+
 Axios (isteğe bağlı): API çağrıları ve dış veri entegrasyonu için (API entegrasyonu gerektiğinde).
-Başlangıç
-Gereksinimler
-Node.js (LTS versiyonu önerilir)
-npm veya yarn (bağımlılık yönetimi için)
 
 Uygulama Yapısı:
 
 /src: Tüm kaynak dosyalarını içerir.
+
 /components: Sipariş formu, pizza seçimi, malzeme ekleme bileşenleri gibi React bileşenleri.
+
 /services: API entegrasyonu ve dış veri işlemleri (isteğe bağlı).
+
 /css: Uygulamanın genel stil ve düzenlemeleri.
 
 Uygulama Adımları:
 
 Pizza Boyutunu Seçin: Kullanıcılar, "Küçük", "Orta", "Büyük" seçeneklerinden birini seçebilir.
+
 Malzemeleri Seçin: Kullanıcılar, pizza için eklemek istedikleri malzemeleri seçebilir. Seçenekler arasında peynir, sucuk, zeytin gibi malzemeler bulunur.
+
 Siparişi Özelleştirin: Kullanıcılar, malzemeleri ekleyip çıkararak pizzalarını kişiselleştirebilir.
+
 Siparişi Onayla: Seçilen pizza boyutu ve malzemelerle birlikte sipariş özeti görüntülenir. Kullanıcılar siparişlerini onaylayarak tamamlar.
 Katkı
 
