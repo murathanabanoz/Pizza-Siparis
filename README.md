@@ -62,13 +62,9 @@ Katkı
 Eğer bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
 
 1.Projeyi kendi bilgisayarınıza klonlayın.
-
 2.Yeni bir branch oluşturun (git checkout -b yeni-feature).
-
 3.Yapmak istediğiniz değişiklikleri gerçekleştirin.
-
 4.Değişikliklerinizi commit edin (git commit -am 'Yeni özellik ekledim').
-
 5.GitHub'a push edin (git push origin yeni-feature).
 
 6.Pull request oluşturun.
