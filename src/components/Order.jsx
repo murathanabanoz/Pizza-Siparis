@@ -76,6 +76,7 @@ const Order = ({ setOrder }) => {
   };
 
   const totalToppingPrice = formData.toppings.length * 5;
+
   useEffect(() => {
     const newTotalPrice = (totalToppingPrice + 85.5) * count;
     setTotal(newTotalPrice.toFixed(2));
@@ -107,11 +108,12 @@ const Order = ({ setOrder }) => {
         console.error("Sipariş Gönderim Hatası:", error);
       });
   };
+
   return (
     <div className="food-card">
       <div className="colored-div"></div>
       <div className="box">
-        <img src={formBanner} className="form-banner" />
+        <img src={formBanner} className="form-banner" alt="Pizza Form Banner" />
         <div className="pizza-bilgi">
           <h2 className="pizza-name">Position Absolute Acı Pizza</h2>
           <div className="pizza-bilgi-ps">
@@ -127,8 +129,7 @@ const Order = ({ setOrder }) => {
             diğer malzemelerle kaplanmış, daha sonra geleneksel olarak odun
             ateşinde bir fırında yüksek sıcaklıkta pişirilen, genellikle
             yuvarlak, düzleştirilmiş mayalı buğday bazlı hamurdan oluşan İtalyan
-            kökenli lezzetli bir yemektir. Küçük bir pizzaya bazen pizzetta
-            denir.
+            kökenli lezzetli bir yemektir.
           </p>
         </div>
         <form className="form-component" onSubmit={handleSubmit}>
