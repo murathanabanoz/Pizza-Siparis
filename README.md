@@ -40,25 +40,34 @@ Node.js (LTS versiyonu önerilir)
 npm veya yarn (bağımlılık yönetimi için)
 
 Uygulama Yapısı:
+
 /src: Tüm kaynak dosyalarını içerir.
 /components: Sipariş formu, pizza seçimi, malzeme ekleme bileşenleri gibi React bileşenleri.
 /services: API entegrasyonu ve dış veri işlemleri (isteğe bağlı).
 /css: Uygulamanın genel stil ve düzenlemeleri.
 
 Uygulama Adımları:
+
 Pizza Boyutunu Seçin: Kullanıcılar, "Küçük", "Orta", "Büyük" seçeneklerinden birini seçebilir.
 Malzemeleri Seçin: Kullanıcılar, pizza için eklemek istedikleri malzemeleri seçebilir. Seçenekler arasında peynir, sucuk, zeytin gibi malzemeler bulunur.
 Siparişi Özelleştirin: Kullanıcılar, malzemeleri ekleyip çıkararak pizzalarını kişiselleştirebilir.
 Siparişi Onayla: Seçilen pizza boyutu ve malzemelerle birlikte sipariş özeti görüntülenir. Kullanıcılar siparişlerini onaylayarak tamamlar.
 Katkı
+
 Eğer bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
 
 1.Projeyi kendi bilgisayarınıza klonlayın.
+
 2.Yeni bir branch oluşturun (git checkout -b yeni-feature).
+
 3.Yapmak istediğiniz değişiklikleri gerçekleştirin.
+
 4.Değişikliklerinizi commit edin (git commit -am 'Yeni özellik ekledim').
+
 5.GitHub'a push edin (git push origin yeni-feature).
+
 6.Pull request oluşturun.
+
 7.Yeni özellikler, hata düzeltmeleri veya iyileştirmeler önerilerinizi bekliyorum!
 
 
