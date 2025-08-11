@@ -87,6 +87,7 @@ const Order = ({ setOrder }) => {
 
     if (!formData.size || !formData.dough) {
       alert("Lütfen tüm zorunlu alanları doldurun.");
+      navigate("/order");
       return;
     }
 
@@ -97,16 +98,20 @@ const Order = ({ setOrder }) => {
       totalToppingPrice,
     };
 
-    axios
-      .post("https://reqres.in/api/pizza", finallyOrder)
-      .then((response) => {
-        setOrder(finallyOrder);
-        console.log("Sipariş Özeti:", response.data);
-        navigate("/done");
-      })
-      .catch((error) => {
-        console.error("Sipariş Gönderim Hatası:", error);
-      });
+    // axios
+    //   .post("https://reqres.in/api/users", finallyOrder)
+    //   .then((response) => {
+    //     setOrder(finallyOrder);
+    //     console.log("Sipariş Özeti:", response.data);
+    //     navigate("/done");
+    //   })
+    //   .catch((error) => {
+    //     console.error("Sipariş Gönderim Hatası:", error);
+    //     alert("Sipariş gönderilemedi. Lütfen tekrar deneyin.");
+    //   });
+
+    setOrder(finallyOrder);
+    navigate("/done");
   };
 
   return (
